@@ -337,4 +337,333 @@ TASKS
 
     Does not need to pass W3C
 
+21. Add social media links. mandatory
 
+    Copy the content of 20-index.html into 21-index.html
+
+        in the div in the footer
+    remove any text you have
+        create a link to https://www.facebook.com/HolbertonSchool/ with the text Facebook
+        create a link to https://twitter.com/holbertonschool with the text Twitter
+        create a link to https://www.instagram.com/holbertonschool/ with the text Instagram
+    W3C won’t pass - you can ignore it
+
+22. "Button" links. mandatory
+
+    Copy the content of 21-index.html into 22-index.html
+
+        in the Hero section, after the heading
+            create a link to # with the text Get started
+        in the About Us section, after the div containing the level 3 headings and paragraphs
+            create a link to about.html with the text Learn more about us
+        in the Contact section, after the div containing the paragraph
+            create a link to contact.html with text Get in touch
+    Does not need to pass W3C
+
+23. Services, Works, Latest news links. mandatory
+
+    Copy the content of 22-index.html into 23-index.html
+
+        in the Services section
+            in each level 3 heading, create a link to # around the text already in the heading
+        in the Works section
+            in each level 3 heading, create a link to # around the text already in the heading
+        in the Latest news section
+            in each level 3 heading, create a link to # around the text already in the heading
+    Does not need to pass W3C
+
+24. List the links. mandatory
+
+    Copy the content of 23-index.html into 24-index.html
+
+        in the nav
+            create an unordered list, put each anchor tag (Home, Services, Works, …) as an individual list item
+        in the div in the footer
+            create an unordered list and put each anchor tag (Facebook, Twitter, …) as an individual list item
+    W3C does not need to pass
+
+25. Secondary navigation menu. mandatory
+
+    Copy the content of 24-index.html into 25-index.html
+
+        inside the footer, after the div
+            create a new div
+            in the new div create an unordered list with the following links:
+                link to # with text Terms of Use
+                link to # with text Privacy Policy
+                link to # with text Cookie Policy
+
+26. Examples of lists for the styleguide. mandatory
+
+    Copy the content of 13-styleguide.html into 26-styleguide.html
+
+    Example of unordered list:
+
+        inside main after Paragraph section, add :
+            a new line and a comment with text Lists
+            after, create a new section with inside:
+                create a header with inside a level 2 heading with the text Lists
+                after the new header, create a div with inside:
+                    a level 3 heading with text Unordered
+                        under it, add an unordered list with these items: Dolor pulvinar etiam magna etiam., Sagittis adipiscing lorem eleifend., Felis enim feugiat dolore viverra.
+
+    Example of ordered list:
+
+        after previous unordered list, in the same div
+            add a level 3 heading with text Ordered
+                add an ordered list with these items:
+                    Dolor pulvinar etiam magna etiam.
+                    Sagittis adipiscing lorem eleifend.
+                    Felis enim feugiat dolore viverra.
+
+    Example of definition list:
+
+        after previous ordered list, in the same div
+            add a heading level 3 with text Definition
+            add a definition list with these items:
+                Term: Definition List title, Definition: Definition text.
+                Term: Startup, Definition: A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+                Term: Water, Definition: A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.
+
+27. Separate content. mandatory
+
+    Copy the content of 25-index.html into 27-index.html
+
+        in the footer between the two divs:
+            add a horizontal rule
+            after the horizontal rule add a paragraph with text © 2020 Techium, made with ♥ by students at Holberton School.
+    W3C does not need to pass.
+
+28. Horizontal rule example. mandatory
+
+    Copy the content of 26-styleguide.html into 28-styleguide.html
+
+        in main after Lists section
+        add a new line and a comment with the text Horizontal rule
+        create a new section
+            create a header and inside it add a level 2 heading with the text Horizontal rule
+            after the header create a div and put a horizontal rule in it
+
+29. Client quotes. mandatory
+
+    Copy the content of 27-index.html into 29-index.html
+
+        in the Testimonials section
+            in the first article
+                replace the text with a blockquote with text I am completely blown away. Thanks to Techium, we've just launched our 5th website! and cite author Yuri Y.
+            in the second article
+                replace the text with a blockquote with text Thank you so much for your help. Techium company is awesome! and cite author Dorrie S.
+            in the third article
+                replace the text with a blockquote with text I love your system. Definitely worth the investment. I'd be lost without Techium company. and cite author Sven H.
+    W3C does not need to pass
+
+30. Examples of quotes. mandatory
+
+    Copy the content of 28-styleguide.html into 30-styleguide.html
+
+    Example of inline quote:
+
+        inside main after Horizontal rule section
+            add a new line and a comment with text Blockquotes
+            create a new section
+                in the section create a header, in the header create a level 2 heading with text Blockquotes
+                after the header, create a div
+                    in the div add a level 3 heading with the text Inline quote
+                    add an inline quote with the text Stay hungry. Stay foolish.
+
+    Example of blockquote:
+
+        after the inline quote div, create another div
+            in the new div add a level 3 heading with the text Blockquote
+            add a multiline quote with the text I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. and cite Kanye West, Musician
+
+31. Address and latest news authors. mandatory
+
+    Copy the content of 29-index.html into 31-index.html
+
+        in the footer
+            right after open footer tag, put the following address: 234 Washington Street (line-break) Urbana, Illinois
+        in the Latest news section
+            in the first article, after the last paragraph, add the author name in small print: By Kelly D.
+            in the second article, after the last paragraph, add the author name in small print: By William A.
+            in the third article, after the last paragraph, add the author name in small print: By Frances J.
+        W3C does not need to pass
+
+32. Typography section - using the correct tags. mandatory
+
+    Copy the content of 30-styleguide.html into 32-styleguide.html
+
+        inside main after the Blockquotes section
+
+            add a new line and a comment with text Typography
+            create a new section
+
+                in the section create a header and inside it add a level 2 heading with the text Typography
+                after the header create a div, inside the div add this text with the correct HTML tag: 320 Stewart Avenue, Unit 12 (line break) New York City NY 10001, the city, state, and postal code should be on a separate line
+                create another div, in the new div nest this code block using the pre HTML tag:
+        <code>
+            <h2>My title</h2>
+            <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
+        </code>
+                create another div, in the new div add this paragraph of text with the correct HTML tag: Curabitur sit amet turpis cursus massa mollis highlighted. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend highlighted mi consequat ut. Cras nec quam sed sapien ultricies highlighted ut sed metus. Each occurrence of the word highlighted should be highlighted.
+        W3C does not need to pass
+
+33. Table. mandatory
+
+    Copy the content of 32-styleguide.html into 33-styleguide.html
+
+        inside main after Typography section
+            add a new line and a comment with text Table
+            create a new section
+                in the section create a header, in the header add a level 2 heading with the text Table
+                after the header, create a table, reproduce in HTML the visual below
+        The <th> tags containing Title, Director, Release Date should have a scope attribute set to col The <th> tags containing the names of the movies should have a scope attribute set to row
+
+    Due to previous task, does not have to pass W3C
+
+34. Details. mandatory
+
+    Copy the content of 33-styleguide.html into 34-styleguide.html
+
+        in main tag after Table section
+            add a new line and a comment with text Details
+            create a new section
+                create a header, in the header add a level 2 heading with the text Details
+                after the header create a div
+                    in the div add a level 3 heading with text Default
+                    add a details element and specify Show/Hide me in the summary
+                    add this text after the summary: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                create another div
+                    add a level 3 heading with text Open
+                    add a details element that is open by default and specify Always open in the summary
+                    add this text after the summary: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Due to earlier task, does not have to pass W3C
+
+35. Replace text logo with image logo. mandatory
+
+    Copy the content of 31-index.html into 35-index.html
+
+        in header
+            find the span with the name of the website
+            replace it with the image above
+            make sure the image is in the same directory as all of your other files and that the file name is logo-black.png
+            alt: Techium logo
+            don’t forget to specify width of 160 and height of 40
+        in footer, after the opening tag and before the address
+            insert the logo image
+            alt: Techium logo
+            don’t forget to specify the width and height (same as in header)
+    W3C does not need to pass
+
+36. Add images to your sections. mandatory
+
+    Copy the content of 35-index.html into 36-index.html
+
+    You can use image generators to get images for this task. For avatar images you can download them on UI Faces. Just make sure you rename your images to match the task requirements.
+
+    Add three images in the Works section:
+
+        in the Works section
+            before the first level 3 heading create a div
+                add images/pic-work-01.jpg inside the div
+                alt: empty
+            before the second level 3 heading create a div
+                add images/pic-work-02.jpg inside the div
+                alt: empty
+            before the third level 3 heading create a div
+                add images/pic-work-03.jpg inside the div
+                alt: empty
+
+    Add one image in the About Us section:
+
+        in the About Us section before the first level 3 heading inside the div
+            add the image images/pic-about-us.jpg
+                alt: empty
+                width: 460
+                height: 447
+
+    Add three images in the Latest news section:
+
+        in the Latest news section
+            in the first article, before the first paragraph, create a div
+                in the div add the image images/pic-blog-01.jpg
+                alt: empty
+                width: 305
+                height: 205
+            in the second article, before the first paragraph, create a div
+                in the div add the image images/pic-blog-02.jpg
+                alt: empty
+                width: 305
+                height: 205
+            in the third article, before the first paragraph, create a div
+                in the div add the image images/pic-blog-03.jpg
+                alt: empty
+                width: 305
+                height: 205
+
+    Add three images in the Testimonials section:
+
+        in the Testimonials section
+            in the first article before the quote, add the image images/pic-person-01.jpg
+                alt: Yuri Y. avatar
+                width: 100px
+                height: 100px
+            in the second article before the quote, add the image images/pic-person-02.jpg
+                alt: Dorrie S. avatar
+                width: 100px
+                height: 100px
+            in the third article before the quote, add the image images/pic-person-03.jpg
+                alt: Sven H. avatar
+                width: 100px
+                height: 100px
+
+    Does not need to pass W3C
+
+37. Social icons
+
+38. Add a video player in the styleguide
+
+    Copy the content of 34-styleguide.html into 38-styleguide.html
+
+        in main after the Details section
+            add a new line and a comment with text Video
+            create a section
+                in the section create a header, in the header add a level 2 heading with the text Video
+                after the header add the following video: https://intranet-projects-files.s3.amazonaws.com/webstack/BigBuckBunny.mp4
+                add controls to the video
+                ensure that the video does a loop
+                display https://intranet-projects-files.s3.amazonaws.com/webstack/thumbnail.jpg when the video is downloading
+                provide an alternative text: Sorry, your browser doesn't support HTML5 video
+    Due to an earlier task, does not need to pass W3C
+
+39. Add an audio player in the styleguide
+
+    Copy the content of 38-styleguide.html into 39-styleguide.html
+
+        in main after Video section
+            add a new line and a comment with text Audio
+            create a section
+                in the section create a header, in the header add a level 2 heading with the text Audio
+                after the header add the following audio file: https://intranet-projects-files.s3.amazonaws.com/webstack/TroubleChapter8_64kb.mp3
+                add controls to the audio player
+                provide an alternative text: Sorry, your browser doesn't support audio element
+    Due to an earlier task, does not need to pass W3C
+
+40. Add a iframe example in the styleguide
+
+    Copy the content of 39-styleguide.html into styleguide.html
+
+        in main after the Audio section
+            add a new line and a comment with text Iframe
+            create a section
+                in the section create a header, in the header add a level 2 heading with the text Iframe
+                    after the header add a div
+                    inside the div, create an iframe
+                    title: Holberton School
+                    width: 350px
+                    height: 200px
+                    source: https://www.youtube.com/embed/41N6bKO-NVI
+                    fallback text: Holberton Sally
+    W3C does not need to pass
+
+    And you are done!
